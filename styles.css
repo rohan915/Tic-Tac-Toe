@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    align-content: center;
+    justify-content: center;
+    grid-template-rows: repeat(3, 100px);
+    
+    height: 100vh;
+    
+}
+
+.w {
+    border-style: solid;
+    font-size: 60px;
+    text-align: center;
+    vertical-align: center;
+    
+}
+
+.display {
+    position: relative;
+    bottom: 800px;
+    font-size: 50px;
+    left: calc(50% - 80px);
+    border: 1px solid black;
+    display: inline;
+}
+
+.reset {
+    position: relative;
+    bottom: 670px;
+    font-size: 20px;
+    left: 670px;
+   visibility: hidden;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: gray;
+}
+.turn {
+    position: relative;
+    bottom: 800px;
+    left: calc(50% - 80px);
+    font-size: 35px;
+    
+    
+   
+}
